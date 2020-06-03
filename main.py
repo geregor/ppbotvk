@@ -12,7 +12,7 @@ soup = BS ( r.content , 'html.parser' )
 
 #webbrowser.open(acc, new=0, autoraise=True)
 
-chromedriver = "/app/.heroku/chromedriver"
+chromedriver = "./chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 driver = webdriver.Chrome(chromedriver)
 #driver = webdriver.Chrome()

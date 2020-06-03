@@ -12,7 +12,7 @@ soup = BS ( r.content , 'html.parser' )
 
 #webbrowser.open(acc, new=0, autoraise=True)
 
-chromedriver = "/geregor/ppbotvk/chromedriver"
+chromedriver = "/app/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 driver = webdriver.Chrome(chromedriver)
 #driver = webdriver.Chrome()

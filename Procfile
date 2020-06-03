@@ -1,1 +1,1 @@
-worker: chromedriver.exe
+worker: start chromedriver.exe

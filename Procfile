@@ -1,1 +1,2 @@
-worker: start chromedriver.exe
+worker: chromedriver.exe
+worker: python main.py

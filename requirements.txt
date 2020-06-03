@@ -1,4 +1,3 @@
-os
 selenium
 webbrowser
 bs4

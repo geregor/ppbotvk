@@ -1,1 +1,1 @@
-worker: chromedriver
+worker: wine chromedriver.exe

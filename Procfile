@@ -1,1 +1,1 @@
-worker: wine chromedriver.exe
+worker: python main.py
